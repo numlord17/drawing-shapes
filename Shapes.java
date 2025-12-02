@@ -9,6 +9,7 @@ public class Shapes {
         turtle.up();
         turtle.setPosition(-250,250);
         turtle.down();
+        turtle.penColor("red");
 		  for (int i = 0; i < 4; i++)
 		  {
 				turtle.forward(50);
@@ -19,6 +20,7 @@ public class Shapes {
         turtle.up();
         turtle.setPosition(250,250);
         turtle.down();
+        turtle.penColor("orange");
         for (int i = 0; i < 10; i++)
         {
             for (int j = 0; j < 4; j++)
@@ -36,6 +38,7 @@ public class Shapes {
         turtle.up();
         turtle.setPosition(-250,-250);
         turtle.down();
+        turtle.penColor("yellow");
         for (int i = 0; i < 10; i++)
         {
             for (int j = 0; j < 4; j++)
