@@ -29,21 +29,22 @@ As you work on C1, take notes about the error messages and bugs you encounter, a
 Here is what you should record in your notes:
 
 -   Record at least one time when your program\'s behavior differed from what you wanted it to do.
-
+      I wanted to make the turtle stop drawing, then move, then continue, but it moved to the next location before picking up the pen.
     -   What are the differences between the actual and desired behavior?
-
+         In the desired, I would call the pen up before the movement, vs after the movement
     -   What is your process for figuring out the problem with your code?
-
+         Since I could seee it draw incorrectly, I knew what the bug was, and fixed it by altering my loop structure
     -   What is the solution to this bug? That is, what do you need to fix about your code to make it have the desired behavior?
-
+         To fix my code, I had to move around what was contained in my for loops to make sure the operation order was correct.
 -   Record at least one time when your program didn\'t compile.
-
+      One time my program didnt compile was when creating boundaries for the map
     -   What compilation errors did you get?
-
+      I got an error about incorrect declaration
     -   What is your process for figuring out the problem with your code? Describe the resources or strategies you used in this process.
-
+      I knew that it was a problem with either the declaration of the turtle or the map, so I looked at both and compared them to the
+      instructions for building them according to the library, and found the issue.
     -   What is the solution to the bug? That is, what do you need to fix about your code to make it compile?
-
+         My solution to this bug was to read the documentation carefully and copy their declaration methods
 You do not need to turn in all of your debugging notes, but you will need to answer questions about your debugging process in your Reflection.
 
 Create a README.md in your repository which includes your debugging notes
